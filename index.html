@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="main.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Brandon Marshall | Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid d-flex flex-row">
+          <a class="navbar-brand fs-4" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fw-bold fs-4">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#github">Github</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+
+    <div class="container" id="home">
+      <div class="row align-items-center">
+        <div class="col-lg-12">
+          <div class="text-center m-5">
+            <h1 class="student fs-5 fw-light"><span>Studying at The Tech Academy</span></h1>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="space-y-20">
+            <h1 class="hero_title text-light">
+              Brandon Marshall <div class="gradient">Game Developer</div>
+              Student at Tech Academy
+            </h1>
+            <p class="txt">Are you looking for a web developer, designer, and multimedia student?</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="skills-container ">
+            <p style="display:block;margin:0 auto;width:100%;text-align:center;padding:5px;background-color:#141721;border-top-right-radius:15px;border-top-left-radius:15px;font-size:12px;"><span class="text-light">Skills</span></p>
+          <div class="skills-container-inner text-light fs-3">
+            <span class="gradient">Professional</span> and <span class="gradient">Personal</span> Skills 
+            <div class="d-flex justify-content-center">
+              <div class="skills-container-skills flex-column m-4 col-lg-3">
+                <img src="./images/photoshop.png " alt="photoshop">
+                <span class="fs-5 fw-bold">Design</span>
+              </div>
+              <div class="skills-container-skills m-4 col-lg-3">
+                <img src="./images/vscode.png" alt="photoshop">
+                <span class="fs-5 fw-bold">Development</span>
+              </div>
+              <div class="skills-container-skills m-4 col-lg-3">
+                <img src="./images/illustrator.png" alt="photoshop">
+                <span class="fs-5 fw-bold">Illustration</span>
+              </div>
+            </div>
+            <span class="fs-6 m-1">Working with Adobe software for over 10 years, I work on developing with design and multimedia in mind.</span>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="d-flex flex-column col-lg-6 content-left p-5 text-light">
+          <span class="fw-bold fs-3" id="about">ABOUT</span>
+          <span class="fs-6">I am a game developer who loves to learn! With a design background, I am trying to expand my horizons by learning to program.
+            <br></br>I am a student of <a href="https://www.learncodinganywhere.com/">The Tech Academy</a>'s Game Developer Boot Camp, and training in the following web and programming languages: HTML, CSS, JavaScript, C#, C++, SQL and more. 
+            <br></br>I am a full-stack developer in training and would love to work with you on your project. Contact me below!</span>
+        </div>
+        <div class="col-lg-6 content-right p-5 text-light" id="github">
+          <div class="d-flex justify-content-center">
+            <img src="./images/github.png" alt="github">
+          </div>
+          <span class="fw-bold fs-3" id="about">GITHUB</span><br>
+          <span class="fs-6">You can view my coding projects on my Github profile here:</span>
+          <a href="https://github.com/bran9001">Github</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="contact col-12 d-flex justify-content-center" id="contact">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputName" class="form-label txt">Name</label>
+          <input type="name" class="form-control" id="exampleInputName">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label txt">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputMessage" class="form-label txt">Message</label>
+          <input type="name" class="form-control" id="exampleInputMessage">
+        </div>
+        <button type="submit" class="btn btn-dark">Submit</button>
+      </form>
+    </div>
+
+    <footer>
+      <div class="container d-flex justify-content-center txt container-background my-5">
+        <span>© Brandon Marshall., Game Developer </span>
+      </div>
+    </footer>
+      
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

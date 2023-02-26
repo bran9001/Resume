@@ -1,0 +1,95 @@
+
+
+body {
+  background-color: #232635 !important;
+}
+.navbar {
+    background-color: #1c1f2c !important;
+}
+.student {
+    background-color:#1c1f2c;
+    display: inline;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.student span {
+  background-image: linear-gradient(to right,#CC75FF 0%,#34D5FB 100%) !important;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+.gradient {
+  background: linear-gradient(to right,#CC75FF 0%,#34D5FB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+.container-background {
+  background-color:#1c1f2c;
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+.container-top {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  background-color: #141721;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.container-box {
+  background-color:#1c1f2c;
+  padding: 10px 15px;
+  width: 100%;
+}
+.txt {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  color: #6f7d95;
+  line-height: 1.6;
+}
+.skills-container-inner {
+  background:#1c1f2c;
+  padding: 5%;
+  text-align: center;
+}
+.skills-container-skills {
+  background:#141721;
+  border-radius: 25%;
+  border-width: 25%;
+  display: block;
+  height: 125px;
+}
+.skills-container-skills img {
+  margin: auto;
+  display: block;
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+.content-left {
+  background-color: #141721;
+  background-size: cover;
+
+}
+.content-right {
+  background-color: #1c1f2c;
+  background-size: cover;
+
+}
+.form-control:valid {
+  background-color: #141721;
+  border: 1px solid #1c1f2c;
+}
